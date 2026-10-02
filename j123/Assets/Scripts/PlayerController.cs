@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 startPosition;
     public Transform visual;
     public float fallLimit = -10f;
-    public Vector2 airScale = new Vector2(0.8f, 1.2f);
+    public Vector2 airScale = new Vector2(0.6f, 1.5f);
     private float facing = 1f;
     private Vector2 moveInput;
     private Rigidbody2D rb;
